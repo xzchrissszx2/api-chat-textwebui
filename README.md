@@ -15,17 +15,16 @@ char_persona: The personality of the chatbot character
 char_greeting: The greeting of the chatbot character
 world_scenario: The scenario in which the chatbot operates
 example_dialogue: A sample dialogue that the chatbot can use as a starting point
-The script also uses a server to generate text responses to user inputs using GPT-3. The server address is specified in the script.
+The script uses a text-webui server to generate text responses to user inputs. The server address is specified in the script.
 
 The script includes the following functions:
 
 process_output: Removes the 'User:' prefix and any hashtags from the generated text output
 add_to_memory: Adds messages to the chatbot's memory
 save_example_dialogue_to_file: Saves the last 10 messages in the chatbot's memory to the 'Example.json' file
-generate_text: Generates text responses using the GPT-3 model and the given prompt and conversation history
+generate_text: Generates text responses using the text-webui server and the given prompt and conversation history
 find_keywords: Extracts keywords and information from user inputs
 update_keywords_list: Updates a dictionary of keywords and associated information based on user inputs
 insert_matching_info: Inserts associated information for keywords found in user inputs
 save_keywords_to_file: Saves the updated keywords dictionary to the 'Example.json' file
-To run the script, replace 'file_path' with the path to your copy of the 'Example.json' file and run the script. The chatbot will prompt the user for inputs and generate responses based on the example dialogue and GPT-3 model. The chatbot's memory and keyword dictionary will be saved to the 'Example.json' file.
-
+To run the script, replace 'file_path' with the path to your copy of the 'Example.json' file and run the script. The chatbot will prompt the user for inputs and generate responses based on the example dialogue and text-webui server. The chatbot's memory and keyword dictionary will be saved to the 'Example.json' file
