@@ -26,7 +26,7 @@ example_dialogue = example_dialogue.replace('{{user}}', 'User')
 example_dialogue = example_dialogue.replace('{{char}}', char_name)
 
 # Server address
-server = "192.168.0.243"
+server = "127.0.0.1"
 
 # Generation parameters
 
@@ -83,7 +83,7 @@ def generate_text(full_prompt, conversation_history, params):
     
     payload = json.dumps([full_prompt, params])
 
-    response = requests.post(f"http://{server}:7861/run/textgen", json={
+    response = requests.post(f"http://{server}:7860/run/textgen", json={
         "data": [
             payload
         ]
