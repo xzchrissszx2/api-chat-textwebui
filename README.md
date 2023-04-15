@@ -3,7 +3,7 @@ Little hacky script to get a chat like interface through the API for Oogaboga te
 
 (GPT3 Generated Description of the script below) 
 
-AI Chatbot with Memory and Keyword Extraction
+AI Chatbot with Memory and Keyword Extraction. 
 This is a Python script that creates an AI chatbot that can engage in friendly and informative conversations with users. The chatbot is designed to be empathetic, respectful, and engaging while providing helpful information and answering questions.
 
 The script uses a JSON file, which is a typical format for storing character information in AI chatbots. However, note that this script modifies the 'Example.json' file, so it is recommended to make a copy of the file before running the script to avoid losing any existing data.
