@@ -1,7 +1,7 @@
 # api-chat-textwebui
 Little hacky script to get a chat like interface through the API for Oogaboga text webui
 
- - - - GPT3 Generated Description of the script
+(GPT3 Generated Description of the script below) 
 
 AI Chatbot with Memory and Keyword Extraction
 This is a Python script that creates an AI chatbot that can engage in friendly and informative conversations with users. The chatbot is designed to be empathetic, respectful, and engaging while providing helpful information and answering questions.
